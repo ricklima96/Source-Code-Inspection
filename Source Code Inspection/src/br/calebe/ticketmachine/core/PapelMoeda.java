@@ -6,27 +6,27 @@ package br.calebe.ticketmachine.core;
  */
 public class PapelMoeda {
 
-    protected int valor;
-    protected int quantidade;
+    protected double valor;
+    protected double quantidade;
 
-    public void setValor(int valor) {
+    public void setValor(double valor) {
         this.valor = valor;
     }
 
-    public void setQuantidade(int quantidade) {
+    public void setQuantidade(double quantidade) {
         this.quantidade = quantidade;
     }
 
-    public PapelMoeda(int valor, int quantidade) {
+    public PapelMoeda(double valor, double quantidade) {
         this.valor = valor;
         this.quantidade = quantidade;
     }
 
-    public int getValor() {
+    public double getValor() {
         return valor;
     }
 
-    public int getQuantidade() {
+    public double getQuantidade() {
         return quantidade;
     }
 }
